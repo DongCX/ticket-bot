@@ -1,0 +1,20 @@
+const AUTH = {
+  Service: '',
+  Account: '',
+  Password: '',
+}
+
+const ACTIVITY = {
+  ID: '',
+}
+
+const ORDER = {
+  Count: '', // should be a string
+  Area: '',
+}
+
+module.exports = {
+  AUTH,
+  ACTIVITY,
+  ORDER
+}

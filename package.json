@@ -1,0 +1,12 @@
+{
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "indievoxTicketScraper": "node src/index.js indievoxTicketScraper"
+  },
+  "dependencies": {
+    "playwright": "^1.33.0"
+  }
+}
