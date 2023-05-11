@@ -88,7 +88,7 @@ const selectArea = async ({ page }) => {
   await page.waitForURL(`https://www.indievox.com/ticket/area/${ACTIVITY.ID}/**`)
 
   // select area
-  await page.locator(`//div[contains(@class, 'zone')]//a[contains(text(), ${ORDER.Area})]`).click()
+  await page.locator(`//div[contains(@class, 'zone')]//a[contains(text(), '${ORDER.Area}')]`).click()
 }
 
 const buyTicket = async ({ page }) => {
