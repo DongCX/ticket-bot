@@ -1,4 +1,5 @@
 # ticket-bot
+base on [Playwright](https://playwright.dev/) 開發的搶票機器人
 ## Getting Start
 
 ### Install
